@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.WebMVC", "Dragon.WebMVC\Dragon.WebMVC.csproj", "{D04E75F5-EF67-4AB4-82A0-3C615B96DE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Experiments", "Dragon.Test\Dragon.Experiments.csproj", "{01E57359-76B7-4411-8B05-A719C0F4872D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Contracts", "Dragon.Contracts\Dragon.Contracts.csproj", "{BEE7C266-6F9B-4689-9356-F65BFE99E5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Data", "Dragon.Data\Dragon.Data.csproj", "{79937937-6C15-43C2-893A-C64DBCF47081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Models", "Dragon.Models\Dragon.Models.csproj", "{D5F621D1-4A90-4724-921F-4842E7C4586D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Services", "Dragon.Services\Dragon.Services.csproj", "{259CFA91-CFEF-4918-B365-60ED3D407433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D04E75F5-EF67-4AB4-82A0-3C615B96DE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04E75F5-EF67-4AB4-82A0-3C615B96DE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04E75F5-EF67-4AB4-82A0-3C615B96DE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04E75F5-EF67-4AB4-82A0-3C615B96DE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E57359-76B7-4411-8B05-A719C0F4872D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E57359-76B7-4411-8B05-A719C0F4872D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E57359-76B7-4411-8B05-A719C0F4872D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E57359-76B7-4411-8B05-A719C0F4872D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE7C266-6F9B-4689-9356-F65BFE99E5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE7C266-6F9B-4689-9356-F65BFE99E5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE7C266-6F9B-4689-9356-F65BFE99E5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE7C266-6F9B-4689-9356-F65BFE99E5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79937937-6C15-43C2-893A-C64DBCF47081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79937937-6C15-43C2-893A-C64DBCF47081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79937937-6C15-43C2-893A-C64DBCF47081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79937937-6C15-43C2-893A-C64DBCF47081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F621D1-4A90-4724-921F-4842E7C4586D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F621D1-4A90-4724-921F-4842E7C4586D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F621D1-4A90-4724-921F-4842E7C4586D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F621D1-4A90-4724-921F-4842E7C4586D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259CFA91-CFEF-4918-B365-60ED3D407433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259CFA91-CFEF-4918-B365-60ED3D407433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259CFA91-CFEF-4918-B365-60ED3D407433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259CFA91-CFEF-4918-B365-60ED3D407433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D83CAF9-EDCA-4BC5-97E6-076A53D0EFF6}
+	EndGlobalSection
+EndGlobal
