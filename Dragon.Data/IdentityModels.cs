@@ -32,7 +32,7 @@ namespace Dragon.Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<Dragon> Dragons { get; set; }
+        public DbSet<DragonEntity> Dragons { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

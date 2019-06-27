@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dragon.Data
 {
-    public class Dragon
+    public class DragonEntity
     {
         [Key]
         public int DragonId { get; set; }
