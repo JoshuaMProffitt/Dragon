@@ -5,23 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dragon.Data
+namespace Dragon.Models
 {
-    public class Dragon
+    public class DragonListItem
     {
-        [Key]
         public int DragonId { get; set; }
-        [Required]
-        public Guid OwnerId { get; set; }
-        [Required]
-        [Display(Name = "Your Dragon")]
         public string DragonName { get; set; }
-        [Required]
-        public string DragonColor { get; set; }
-        [Required]
-        public string DragonDescription { get; set; }
-        [Required]
+        [Display(Name="Creation of dragon")]
         public DateTimeOffset BirthOfDragon { get; set; }
-        public DateTimeOffset ModificationOfDragon { get; set; }
+
+        public string DragonColor { get; set; }
+        public string DragonDescription { get; set; }
+
     }
 }
