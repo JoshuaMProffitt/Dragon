@@ -24,9 +24,9 @@ namespace Dragon.Services
                 {
                     OwnerId = _userId,
                     DragonName = model.DragonName,
-                    BirthOfDragon = DateTimeOffset.Now,
                     DragonColor = model.DragonColor,
-                    DragonDescription = model.DragonDescription
+                    DragonDescription = model.DragonDescription,
+                    BirthOfDragon = DateTimeOffset.Now
                 };
             using (var ctx = new ApplicationDbContext())
             {

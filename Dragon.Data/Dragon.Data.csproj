@@ -54,14 +54,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dragon.cs" />
+    <Compile Include="DragonEntity.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\201906271932364_InitialCreate.cs" />
+    <Compile Include="Migrations\201906271932364_InitialCreate.Designer.cs">
+      <DependentUpon>201906271932364_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906272204257_FirstMigration.cs" />
+    <Compile Include="Migrations\201906272204257_FirstMigration.Designer.cs">
+      <DependentUpon>201906272204257_FirstMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201906271932364_InitialCreate.resx">
+      <DependentUpon>201906271932364_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906272204257_FirstMigration.resx">
+      <DependentUpon>201906272204257_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

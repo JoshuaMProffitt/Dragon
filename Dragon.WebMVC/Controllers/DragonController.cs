@@ -1,4 +1,6 @@
 ﻿using Dragon.Models;
+using Dragon.Services;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,11 +29,16 @@ namespace Dragon.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(DragonCreate model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-
+                return View(model);
             }
-            return View(model);
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new DragonService(userId);
+
+            service.CreateDragon(model);
+
+            return RedirectToAction("Index");
         }
     }
 }

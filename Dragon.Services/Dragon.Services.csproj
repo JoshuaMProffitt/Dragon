@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DragonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dragon.Data\Dragon.Data.csproj">
+      <Project>{79937937-6c15-43c2-893a-c64dbcf47081}</Project>
+      <Name>Dragon.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dragon.Models\Dragon.Models.csproj">
+      <Project>{d5f621d1-4a90-4724-921f-4842e7c4586d}</Project>
+      <Name>Dragon.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
